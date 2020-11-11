@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <title>Request an Appointment</title>
+    <link rel ='stylesheet' href = 'RequestAppt.css'>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+        <div id = 'logo'>
+            <a href="/HomePage/home.html"><img src='/HomePage/logo.png' class = 'logo'></a>
+        </div>
+
+
+    </header>
+
+    <div class=content>
+        <div class="sidebar">
+            <ul>
+                <li><a href="UpcomingAppt.html"><span class="title">Upcoming Appointments</span></a></li>
+                <li><a href="#" class="active"><span class="title">Request an Appointment</span></a></li>
+                <li><a href="ApptNotes.html"><span class="title">Appointment Notes</span></a></li>
+                <li><a href="Medication.html"><span class="title">Medication</span></a></li>
+                <li><a href="Treatments.html"><span class="title">Treatments</span></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <section class="form pt-5 pb-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="offset-md-2 col-md-8">
+                      <div class="heading">
+                        <h1>Appointment</h1>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <input type="text" placeholder="Location">
+                        </div>
+                        <div class="col-md-6">
+                          <input type="text" placeholder="Doctor">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <input type="time" placeholder="Time">
+                        </div>
+                        <div class="col-md-6">
+                          <input type="date" placeholder="Date">
+                        </div>
+                        <div class="col-md-12">
+                          <textarea name="message" id="" cols="30" rows="10" placeholder="Appointment notes"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                          <input type="button" value="Make Appointment">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        </div>
+    </div>
+  </body>
+</html>

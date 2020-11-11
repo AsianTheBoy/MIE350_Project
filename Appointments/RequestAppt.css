@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
+body {
+    background-image: url("/HomePage/splash.png");
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+header {
+    display: flex;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 100px;
+}
+
+#logo {
+    padding-left: 40px;
+}
+
+#logo img {
+    max-width: 100%;
+    height: 50px;
+}
+
+.sidebar{
+    position: fixed;
+    left: 10px;
+    background: #2e4ead;
+    width: 270px;
+    height: calc(100% - 80px);
+    border-bottom-left-radius: 20px;
+    transition: all 0.3s ease;
+}
+  
+.sidebar ul li a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 1px;
+    color: #92a6e2;
+    white-space: nowrap;
+}
+  
+.sidebar ul li a:before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 3px;
+height: 100%;
+background: #92a6e2;
+display: none;
+}
+  
+.sidebar ul li a span.icon{
+margin-right: 10px;
+display: inline-block;
+}
+  
+.sidebar ul li a span.title{
+    display: inline-block;
+}
+  
+.sidebar ul li a:hover,
+.sidebar ul li a.active{
+    background: #4360b5;
+    color: #fff;
+}
+  
+.sidebar ul li a:hover:before,
+.sidebar ul li a.active:before{
+    display: block;
+}
+
+
+.main {
+    margin-left: 280px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    height: 100%;
+}
+
+.form{
+    position: relative;
+    background-color: rgba(68, 45, 99, 0.603);
+    opacity: 0.9;
+}
+.main section {
+    height: 557px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+input[type="text"] {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+input[type="time"]{
+	border: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+input[type="date"]{
+	border: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input[type="date"]:focus {
+    outline: none;
+}
+textarea {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+input[type="button"] {
+    border: none;
+    color: #0062CC;
+    padding: 10px 40px;
+    background-color: #d4d4d4;
+    font-weight: 600;
+}
+input[type="button"]:focus {
+    outline: none;
+}
+h1 {
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 200px;
+    left: -175px;
+    transform: rotate(270deg);
+    opacity: 0.6;
+}
+.text {
+    background-color: #fff;
+    padding: 30px 30px;
+    width: 100%;
+}
+h2 {
+    font-size: 22px;
+    line-height: 33px;
+}
+li.list-group-item {
+    background-color: transparent;
+    border: none;
+    padding: 6px;
+}
+ul.list-group {
+    margin-top: 25px;
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+  <link rel = "icon" href =  "../logo_sm.ico" type = "image/x-icon"> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = 'stylesheet' href = 'styles.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div id = 'logo'>
+  <a href = '/HomePage/home.html'><img src='/HomePage/logo.png'></a>
+</div>
+
+<div class="container">
+  <h2>Your Profile</h2>
+  <form>
+      <div class = 'form-group row'>
+        <label for="staticName" class = 'col-md-2 col-form-label'>Name</label>
+        <div class = 'col-md-10'>
+            <input type="text" readonly class="form-control" id="staticName" name="staticName" value = "Jane Doe">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="staticAddress" class = 'col-md-2 col-form-label'>Address</label>
+        <div class = 'col-md-10'>
+            <input type="text" readonly class="form-control" id="staticAddress" value="1234 Main St">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="staticCity" class = 'col-md-2 col-form-label'>City</label>
+        <div class = 'col-md-10'>
+            <input type="text" readonly class="form-control" id="staticCity" value = 'Toronto'>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="staticState" class = 'col-md-2 col-form-label'>Province</label>
+        <div class = 'col-md-10'>
+            <input type="text" readonly class="form-control" id="staticState" value = 'Ontario'>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="staticZip" class = 'col-md-2 col-form-label'>Postal Code</label>
+        <div class = 'col-md-10'>
+            <input type="text" readonly class="form-control" id="staticZip" value = 'M5J 1J2'>
+        </div>
+      </div>
+      <div class = 'form-group row'>
+        <label for="staticLocPrac" class = 'col-md-2 col-form-label'>Name of Primary Location of Practice</label>
+        <div class = 'col-md-10'>
+            <input type="text" readonly class="form-control" id="staticLocPrac" name="staticLocPrac" value = "Toronto General">
+        </div>
+      </div>
+      <div class = 'form-group row'>
+        <label for="staticEmail" class = 'col-md-2 col-form-label'>Email</label>
+        <div class = 'col-md-10'>
+            <input type="email" readonly class="form-control" id="staticEmail" name="staticEmail" value = "Jane.Doe@gmail.com">
+        </div>
+      </div>
+    <div class = 'from-group'>
+      <a href = "../DoctorProfile/EditDoctorProfile/editDoctorProfile.html"><button type="button" class="btnSubmit">Edit Profile</button></a> 
+      <a href = "../ChangePassword/changePassword.html"><button type="button" class="btnSubmit">Change Password</button></a>
+    </div>
+  </form>
+</div>
+
+</body>
+
+</html>

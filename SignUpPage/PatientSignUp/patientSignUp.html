@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Your Account</title>
+  <link rel = "icon" href =  "../../logo_sm.ico" type = "image/x-icon"> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = 'stylesheet' href = 'styles.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div id = 'logo'>
+  <a href = '/HomePage/home.html'><img src='/HomePage/logo.png'></a>
+</div>
+
+<div class="container">
+  <h2>Create your account</h2>
+  <form>
+    <div class="form-group col-md-12">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Jane Doe" name="name">
+    </div>
+    <div class="form-group col-md-12">
+      <label for="inputAddress">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">Province</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option value="AB">Alberta</option>
+	        <option value="BC">British Columbia</option>
+	        <option value="MB">Manitoba</option>
+        	<option value="NB">New Brunswick</option>
+        	<option value="NL">Newfoundland and Labrador</option>
+        	<option value="NS">Nova Scotia</option>
+          <option value="ON">Ontario</option>
+        	<option value="PE">Prince Edward Island</option>
+	        <option value="QC">Quebec</option>
+        	<option value="SK">Saskatchewan</option>
+        	<option value="NT">Northwest Territories</option>
+        	<option value="NU">Nunavut</option>
+	        <option value="YT">Yukon</option>
+        </select>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Postal Code</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+    </div>
+    <div class="form-group col-md-12">
+      <label for="healthCard">Health Card Number</label>
+      <input type="text" class="form-control" id="healthCard" placeholder = 'Enter health card number' name="healthCard">
+    </div>
+    <div class="form-group col-md-12">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group col-md-12">
+      <label for="pwd">Password</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class = 'from-group col-md-12'>
+      <button id='btn' type="submit" class="btnSubmit">Sign Up</button>
+    </div>
+  </form>
+</div>
+
+<script src='test.js'></script>
+
+</body>
+
+</html>
+

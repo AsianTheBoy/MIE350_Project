@@ -20,7 +20,7 @@ a {
 }
 
 #logo {
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 #logo img {
@@ -158,6 +158,8 @@ body {
     background-position-y: -20%;
 }
 
-
-
-
+@media screen and (max-height: 960px) {
+    footer {
+        display: none;
+    }
+}

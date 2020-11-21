@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Appointment Notes</title>
+	<link rel="stylesheet" href="ApptNotes.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header class="top_navbar">
+    <div class="logo">
+        <a href="/HomePage/home.html"><img src='/HomePage/logo.png' class = 'logo'></a>
+    </div>
+  </header>
+
+  <div class="wrapper">
+
+    <div class="sidebar">
+        <ul>
+          <li><a href="UpcomingAppt.html">
+            <span class="title">Upcoming Appointments</span></a></li>
+          <li><a href="RequestAppt.html">
+            <span class="title">Request an Appointment</span>
+            </a></li>
+          <li><a href="#" class="active">
+            <span class="title">Appointment Notes</span>
+            </a></li>
+          <li><a href="Medication.html">
+            <span class="title">Medication</span>
+            </a></li>
+          <li><a href="Treatments.html">
+            <span class="title">Treatments</span>
+            </a></li>
+      </ul>
+    </div>
+    
+    <div class="main_container">
+      <h3>Appointment Notes</h3>
+      <ul class="notes">
+        <li>
+            <div class="rotate-1 lazur-bg">
+              <h6>12:03:28 12-04-2014</h6>
+              <h4>Dr. Phill</h4>
+                <p>Everything normal in your bloodwork. </p>
+                <a href="#" class="text-danger pull-right"><i class="fa fa-trash-o "></i></a>
+            </div>
+        </li>   
+        <li>
+            <div class="rotate-2 red-bg">
+                <h6>12:03:28 12-04-2014</h6>
+                <h4>Dr. Smith</h4>
+                <p>Follow up in a month.</p>
+                <a href="#" class="text-danger pull-right"><i class="fa fa-trash-o "></i></a>
+            </div>
+        </li>    
+        <li>
+            <div class="rotate-1 yellow-bg">
+              <h6>12:03:28 12-04-2014</h6>
+              <h4>Dr. Khan</h4>
+                <p>Take Vitamin C every day.</p>
+                <a href="#" class="text-danger pull-right"><i class="fa fa-trash-o "></i></a>
+            </div>
+        </li>   
+      </ul>
+      
+    </div>
+    
+  </div>
+</body>
+</html>

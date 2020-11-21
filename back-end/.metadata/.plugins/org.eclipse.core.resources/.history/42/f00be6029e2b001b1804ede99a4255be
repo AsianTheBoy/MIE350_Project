@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+
+<html>
+
+    <header>
+        <div id = 'logo'>
+            <img src='logo.png'>
+        </div>
+
+        <div>
+            <a href = "../LoginPage/login.html"><button type ="button" id = "login">Login</button></a>
+            <a href = "../SignUpPage/signUp.html"><button type ="button" id = "sign-up">Sign Up</button></a>
+            <a href = "../PatientProfile/patientProfile.html"><button type ="button" id = "sign-up">TEMP Patient</button></a>
+            <a href = "../DoctorProfile/doctorProfile.html"><button type ="button" id = "sign-up">TEMP Doctor</button></a>
+        </div>
+    </header>
+
+    <body>
+        <div class = 'center-align'>
+            <h1 id = 'welcome'>Organize your healthcare with HealthAlert</h1>
+        </div>
+        
+        <div class = 'button-center'>
+            <a href = '../SignUpPage/signUp.html'><button id = 'get-started'>Get Started</button></a>
+        </div>
+        
+        <form action="">
+        	enter first number: <input type="text" name="num1"><br>
+        	enter second number: <input type="text" name="num1"><br>
+        	<input type="submit">
+        
+        </form>
+        
+    </body>
+
+    <footer>
+        <div class = 'footer-align'>
+            <ul>
+                <li><a href = '#'>Security</a></li>
+                <li><a href = '#'>Privacy</a></li>
+                <li><a href = '#'>Terms</a></li>
+            </ul>
+            <p>@ Fake Company Inc.</p>
+        </div>
+    </footer>
+
+</html>

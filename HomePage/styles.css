@@ -33,7 +33,9 @@ a {
     border-radius: 5px;
     height: 50px;
     width: 100px;
-    color: #0062CC;
+    background-color: #0062CC;
+    color: white;
+    font-size: medium;
 }
 
 #sign-up {
@@ -43,8 +45,9 @@ a {
     width: 100px;
     margin-right: 10px;
     margin-left: 10px;
-    background-color: #0062CC;
+    background-color: #0062CC; 
     color: white;
+    font-size: medium; 
 }
 
  #sign-up:focus, #login:focus {
@@ -53,14 +56,14 @@ a {
 }
 
 #sign-up:hover {
-    border: 1px solid #d4d4d4;
+    border: 3px solid #d4d4d4;
     background-color: #1170d4;
-    border-radius: 4px;
+    border-radius: 4px; 
 }
 
 #login:hover {
-    border: 1px solid transparent;
-    background-color: rgb(231, 231, 231);
+    border: 3px solid #d4d4d4;
+    background-color: #1170d4;
     border-radius: 4px;
 }
 
@@ -87,7 +90,7 @@ a {
 }
 
 #get-started {
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-radius: 5px;
     height: 45px;
     width: 150px;

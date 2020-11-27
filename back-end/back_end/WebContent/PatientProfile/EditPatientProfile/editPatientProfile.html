@@ -19,7 +19,7 @@
 
 <div class="container">
   <h2>Edit Your Profile</h2>
-  <form  action="input_patient_profile">
+  <form action="input_patient_profile">
       <div class = 'form-group row'>
         <label for="newName" class = 'col-md-2 col-form-label'>Name</label>
         <div class = 'col-md-10'>
@@ -39,15 +39,30 @@
         </div>
       </div>
       <div class="form-group row">
-        <label for="newState" class = 'col-md-2 col-form-label'>Province</label>
+        <label for="newProvince" class = 'col-md-2 col-form-label'>Province</label>
         <div class = 'col-md-10'>
-            <input type="text" class="form-control" id="newState" name="newState" placeholder = 'PreviousValue'>
+          <select id="newProvince" class="form-control" type = "text" name = "newProvince">
+            <option selected>Choose...</option>
+            <option value="AB">Alberta</option>
+            <option value="BC">British Columbia</option>
+            <option value="MB">Manitoba</option>
+            <option value="NB">New Brunswick</option>
+            <option value="NL">Newfoundland and Labrador</option>
+            <option value="NS">Nova Scotia</option>
+            <option value="ON">Ontario</option>
+            <option value="PE">Prince Edward Island</option>
+            <option value="QC">Quebec</option>
+            <option value="SK">Saskatchewan</option>
+            <option value="NT">Northwest Territories</option>
+            <option value="NU">Nunavut</option>
+            <option value="YT">Yukon</option>
+          </select>
         </div>
       </div>
       <div class="form-group row">
-        <label for="newZip" class = 'col-md-2 col-form-label'>Postal Code</label>
+        <label for="newPostal" class = 'col-md-2 col-form-label'>Postal Code</label>
         <div class = 'col-md-10'>
-            <input type="text" class="form-control" id="newZip" name="newZip" placeholder = 'PreviousValue'>
+            <input type="text" class="form-control" id="newPostal" name="newPostal" placeholder = 'PreviousValue'>
         </div>
       </div>
       <div class = 'form-group row'>
@@ -63,7 +78,7 @@
         </div>
       </div>
     <div class = 'from-group'>
-      <button type="Submit" class="btnSubmit">Update</button>
+      <input type="Submit" class="btnSubmit" value = "Update">
       <button type = "button" class="btnCancel" onClick="goBack()">Cancel</button>
     </div>
   </form>

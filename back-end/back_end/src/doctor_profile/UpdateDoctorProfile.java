@@ -1,10 +1,10 @@
-package patient_profile;
+package doctor_profile;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class UpdatePatientProfile extends HttpServlet {
+public class UpdateDoctorProfile extends HttpServlet {
 	public void service(HttpServletRequest req, HttpServletResponse res) {
 		// accept the request from the user
 		String newName = req.getParameter("newName");
@@ -12,9 +12,9 @@ public class UpdatePatientProfile extends HttpServlet {
 		String newCity = req.getParameter("newCity");
 		String newProvince = req.getParameter("newProvince");
 		String newPostal = req.getParameter("newPostal");
-		String newHealthCard = req.getParameter("newHealthCard");
+		String newLocPrac = req.getParameter("newLocPrac");
 		String newEmail = req.getParameter("newEmail");
 		
-		System.out.println(newName + " " + newAddress + " " + newCity + " " + newProvince + " " + newPostal + " " + newHealthCard + " " + newEmail);
+		System.out.println(newName + " " + newAddress + " " + newCity + " " + newProvince + " " + newPostal + " " + newLocPrac + " " + newEmail);
 	}
 }

@@ -17,9 +17,25 @@
 </servlet>
 
 <servlet-mapping>
-	<servlet-name>xyz</servlet-name>
-	<url-pattern>/input_patient_profile</url-pattern>
+	<servlet-name>edit_patient_profile</servlet-name>
+	<url-pattern>/PatientProfile/EditPatientProfile/input_patient_profile</url-pattern>
 </servlet-mapping>
+
+<servlet>
+	<servlet-name>edit_patient_profile</servlet-name>
+	<servlet-class>patient_profile.UpdatePatientProfile</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>edit_doctor_profile</servlet-name>
+	<url-pattern>/DoctorProfile/EditDoctorProfile/input_doctor_profile</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>edit_doctor_profile</servlet-name>
+	<servlet-class>doctor_profile.UpdateDoctorProfile</servlet-class>
+</servlet>
+
 
 
 </web-app>

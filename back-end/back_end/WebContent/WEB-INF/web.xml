@@ -16,6 +16,7 @@
 	<servlet-class>patient_profile.UpdatePatientProfile</servlet-class>
 </servlet>
 
+<!-- Edit Patient Profile -->
 <servlet-mapping>
 	<servlet-name>edit_patient_profile</servlet-name>
 	<url-pattern>/PatientProfile/EditPatientProfile/input_patient_profile</url-pattern>
@@ -26,6 +27,7 @@
 	<servlet-class>patient_profile.UpdatePatientProfile</servlet-class>
 </servlet>
 
+<!-- Edit Doctor Profile -->
 <servlet-mapping>
 	<servlet-name>edit_doctor_profile</servlet-name>
 	<url-pattern>/DoctorProfile/EditDoctorProfile/input_doctor_profile</url-pattern>
@@ -36,6 +38,48 @@
 	<servlet-class>doctor_profile.UpdateDoctorProfile</servlet-class>
 </servlet>
 
+<!-- Doctor Sign Up -->
+<servlet-mapping>
+	<servlet-name>doctor_signUp</servlet-name>
+	<url-pattern>/SignUpPage/DoctorSignUp/d-signUp</url-pattern>
+</servlet-mapping>
 
+<servlet>
+	<servlet-name>doctor_signUp</servlet-name>
+	<servlet-class>doctor_signUp.D_signUp</servlet-class>
+</servlet>
+
+<!-- Patient Sign Up -->
+<servlet-mapping>
+	<servlet-name>patient_signUp</servlet-name>
+	<url-pattern>/SignUpPage/PatientSignUp/p-signUp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>patient_signUp</servlet-name>
+	<servlet-class>patient_signUp.P_signUp</servlet-class>
+</servlet>
+
+<!-- Patient Login -->
+<servlet-mapping>
+	<servlet-name>patient_login</servlet-name>
+	<url-pattern>/LoginPage/p-login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>patient_login</servlet-name>
+	<servlet-class>login_page.login</servlet-class>
+</servlet>
+
+<!-- Patient Login -->
+<servlet-mapping>
+	<servlet-name>doctor_login</servlet-name>
+	<url-pattern>/LoginPage/d-login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>doctor_login</servlet-name>
+	<servlet-class>login_page.login</servlet-class>
+</servlet>
 
 </web-app>

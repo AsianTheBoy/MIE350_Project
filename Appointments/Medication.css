@@ -32,6 +32,43 @@ header {
     height: 50px;
 }
 
+#logout {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 40px;
+    width: 74px;
+    background-color: #0062CC;
+    color: white;
+    font-size: 14.5px;
+    float: right;
+    margin-right: 10px;
+    
+    
+}
+
+#profile{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 40px;
+    width: 74px;
+    background-color: #f2f5f8;
+    color: rgb(8, 8, 8);
+    font-size: 14.5px;
+    float: right;
+    margin-right: 10px;
+}
+#profile:hover {
+    border: 3px solid #d4d4d4;
+    background-color: #cbdbec;
+    border-radius: 4px;
+}
+
+#logout:hover {
+    border: 3px solid #d4d4d4;
+    background-color: #1170d4;
+    border-radius: 4px;
+}
+
 .events-features {
     max-width: 500px;
 }
@@ -133,7 +170,7 @@ footer {
 .sidebar{
     position: fixed;
     left: 10px;
-    background: #2e4ead;
+    background: rgb(228, 228, 238);
     width: 270px;
     height: calc(100% - 80px);
     border-bottom-left-radius: 20px;
@@ -146,7 +183,7 @@ footer {
     color: #fff;
     position: relative;
     margin-bottom: 1px;
-    color: #92a6e2;
+    color: #3255c0;
     white-space: nowrap;
 }
   
@@ -157,7 +194,7 @@ top: 0;
 left: 0;
 width: 3px;
 height: 100%;
-background: #92a6e2;
+background: #c6cee7;
 display: none;
 }
   
@@ -172,12 +209,14 @@ display: inline-block;
   
 .sidebar ul li a:hover,
 .sidebar ul li a.active{
-    background: #4360b5;
+    background: #576eb6;
+    
     color: #fff;
 }
   
 .sidebar ul li a:hover:before,
 .sidebar ul li a.active:before{
+
     display: block;
 }
 

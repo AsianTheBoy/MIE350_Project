@@ -31,10 +31,22 @@ header {
     height: 50px;
 }
 
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+
+}
+
 .sidebar{
     position: fixed;
     left: 10px;
-    background: #2e4ead;
+    background: rgb(228, 228, 238);
     width: 270px;
     height: calc(100% - 80px);
     border-bottom-left-radius: 20px;
@@ -47,7 +59,7 @@ header {
     color: #fff;
     position: relative;
     margin-bottom: 1px;
-    color: #92a6e2;
+    color: #3255c0;
     white-space: nowrap;
 }
   
@@ -58,7 +70,7 @@ top: 0;
 left: 0;
 width: 3px;
 height: 100%;
-background: #92a6e2;
+background: #c6cee7;
 display: none;
 }
   
@@ -73,12 +85,14 @@ display: inline-block;
   
 .sidebar ul li a:hover,
 .sidebar ul li a.active{
-    background: #4360b5;
+    background: #576eb6;
+    
     color: #fff;
 }
   
 .sidebar ul li a:hover:before,
 .sidebar ul li a.active:before{
+
     display: block;
 }
 

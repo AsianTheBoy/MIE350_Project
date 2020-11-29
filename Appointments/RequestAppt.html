@@ -10,6 +10,7 @@
   </head>
 
   <body>
+  
     <header>
         <div id = 'logo'>
             <a href="/HomePage/home.html"><img src='/HomePage/logo.png' class = 'logo'></a>
@@ -17,7 +18,7 @@
 
 
     </header>
-
+    
     <div class=content>
       <div class="wrapper">
         <div class="sidebar">
@@ -50,21 +51,60 @@
                       </div>
                       <div class="row">
                         <div class="col-md-6">
-                          <input type="text" placeholder="Location">
-                        </div>
-                        <div class="col-md-6">
-                          <input type="text" placeholder="Doctor">
+                          <form action="/action_page.php">
+                            <label for="cars">Location:</label>
+                            <select id="cars" name="cars">
+                              <option value="selectLocation">Select</option>
+                              <option value="selectLocation">Davisville Medical Clinic</option>
+                              <option value="selectLocation">Maple Leaf Medical Clinic</option>
+                              <option value="selectLocation">MCI Medical Clinic</option>
+                            </select>
+                          </form>  
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-6">
-                          <input type="time" placeholder="Time">
+                          <form action="/action_page.php">
+                            <label for="doctor">Doctor:</label>
+                            <select id="doctor" name="doctor">
+                              <option value="selectDoctor">Select</option>
+                              <option value="selectDoctor">Dr.Khan</option>
+                              <option value="selectDoctor">Dr.Smith</option>
+                              <option value="selectDoctor">Dr.Phill</option>
+                            </select>
+                          </form>  
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <form action="/action_page.php">
+                            <label for="time">Time:</label>
+                            <select id="time" name="time">
+                              <option value="selectTime">Select</option>
+                              <option value="selectTime">9:30 AM</option>
+                              <option value="selectTime">10 AM</option>
+                              <option value="selectTime">11 AM</option>
+                              <option value="selectTime">3:30 PM</option>
+                            </select>
+                          </form> 
                         </div>
                         <div class="col-md-6">
-                          <input type="date" placeholder="Date">
+                          <form action="/action_page.php">
+                            <label for="date">Date:</label>
+                            <select id="date" name="dates">
+                              <option value="selectDate">Select</option>
+                              <option value="selectDate">December 8th 2020</option>
+                              <option value="selectDate">December 9th 2020</option>
+                              <option value="selectDate">December 10th 2020</option>
+                              <option value="selectDate">December 11th 2020</option>
+                              <option value="selectDate">December 12th 2020</option>
+                              <option value="selectDate">December 13th 2020</option>
+                              <option value="selectDate">December 14th 2020</option>
+                            </select>
+                          </form> 
                         </div>
                         <div class="col-md-12">
-                          <textarea name="message" id="" cols="30" rows="10" placeholder="Appointment notes"></textarea>
+                          <textarea name="message" id="" cols="15" rows="5" placeholder="Appointment notes"></textarea>
                         </div>
                         <div class="col-md-6">
                           <input type="button" value="Make Appointment">
@@ -76,5 +116,7 @@
             </section>
         </div>
     </div>
+
+    
   </body>
 </html>

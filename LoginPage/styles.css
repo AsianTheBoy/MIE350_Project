@@ -45,6 +45,22 @@
     border: none;
     cursor: pointer;
 }
+
+.btnBack
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    margin-top: 125px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
 .login-form-1 .btnSubmit{
     font-weight: 600;
     color: #fff;

@@ -29,6 +29,16 @@
     color: #fff;
     background-color: #0062cc;
 }
+.btnBack {
+    margin-top: 10px;
+    border-radius: 1rem;
+    padding: 1.1%;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
 
 .btnSubmit:focus{
     outline: none;

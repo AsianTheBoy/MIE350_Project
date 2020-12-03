@@ -35,7 +35,9 @@
     color: #fff;
 }
 .login-container form{
-    padding: 10%;
+    padding: 10%
+    
+    
 }
 .btnSubmit
 {
@@ -64,4 +66,11 @@
     color: #0062cc;
     font-weight: 600;
     text-decoration: none;
+}
+
+#back{
+    position: absolute;
+    margin-bottom: 3%;
+    bottom: 0.5px;
+    width: 100px;
 }

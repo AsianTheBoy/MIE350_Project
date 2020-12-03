@@ -7,12 +7,24 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <style>
+        p {
+          color: rgb(0, 0, 8);
+          text-transform: uppercase;
+          text-align: center;
+          margin-bottom: 15px;
+          font-size: xx-large;
+          text
+        }
+        </style>
   </head>
 
   <body>
     <header>
         <div id = 'logo'>
-            <a href="/HomePage/home.html"><img src='/HomePage/logo.png' id = 'logo'></a>    
+            <a href="/HomePage/home.html"><img src='/HomePage/logo.png' id = 'logo'></a>   
+            <a href = "../LoginPage/login.html"><button type ="button" id = "logout">Logout</button></a>
+            <a href = "../PatientProfile/patientProfile.html"><button type ="button" id = "profile"><i class="fas fa-user"></i> Profile</button></a> 
         </div>
     </header>
 
@@ -41,16 +53,14 @@
         <div class="main">
 
             <div class="container events-features">
+                <p>Welcome User!</p>
                 <div class="row">
                     <ul>  
-                <li class="highlighted">Confirmed Appointments</li>
-                <li>2:00pm Thursday October 16th 2020<span class="pull-right bullet green"></span></li>
+                <li class="highlighted">Upcoming Appointments</li>
+                <li>2:00pm Thursday October 16th 2020,<span><button type ="button" id = "edit">edit</button></span><span class="pull-right bullet green"> </span></li>
                 </ul>
         
-                <ul>
-                <li class="highlighted">Pending Appointments</li>
-                <li>2:00pm Thursday October 16th 2022<span class="pull-right bullet yellow"></span></li>
-                </ul>
+
             </div>
         </div>
     </div>
